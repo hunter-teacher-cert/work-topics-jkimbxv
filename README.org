@@ -1,6 +1,6 @@
-* Last name:
-* First name:
-* Github username:
+* Last name: Kim
+* First name: Jiyoon
+* Github username: jkimbxv
 
 * Instructions:
 
@@ -13,6 +13,6 @@ Your final project and weekly_ethicacy assignments should be added to
 their respective folders. Group work should be added to all members
 repositories.
 
-
+20220131
 
 

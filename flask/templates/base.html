@@ -1,0 +1,16 @@
+<!--good for linking style sheets javascripts etc-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    {% block head %}<!--syntax for flask for templates-->
+    {% endblock %}
+  </head>
+  <body>
+    {% block body %}<!--syntax for flask for templates-->
+    {% endblock %}
+
+  </body>
+</html>
