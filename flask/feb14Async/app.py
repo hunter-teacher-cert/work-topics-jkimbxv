@@ -1,9 +1,10 @@
-from flask import Flask, request 
+from flask import Flask, request, session 
 from flask import render_template
 
 import random
 
 app = Flask(__name__)
+app.secret_key = b'pickle' #my key
 
 #- Multiple routes (at least 2)
 
@@ -13,7 +14,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def homePage():
-  return render_template("home.html")
+  if 'count' not in session:
+    session['count'] = 1
+  else:
+    session['count'] = session['count'] + 1
+  return render_template("home.html",count = session['count'])
 
 @app.route("/about")
 def about():
@@ -32,7 +37,6 @@ def form():
     comments = request.form['comments']
     print(email,comments)
     return "<h1>Your comment has been received. Here's what you entered: </h1><br>"+email+comments;
-
 
   
 app.run(host="0.0.0.0",port=5000,debug=True)
