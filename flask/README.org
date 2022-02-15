@@ -1,3 +1,4 @@
-* Last Name:
-* First Name:
+* Last Name: Kim
+* First Name: Jiyoon
 
+For the Feb 14 assignment, please see the feb14Async.py file. 
