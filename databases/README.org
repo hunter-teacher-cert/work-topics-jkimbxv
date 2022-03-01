@@ -1,3 +1,6 @@
-* Last Name:
-* First Name:
+* Last Name: Kim
+* First Name: Jiyoon
 
+Link to HW & Async:
+
+https://colab.research.google.com/drive/1KsAw5B2cqE5Zcrl5OqK7qFWwik3_ZDEB. 
