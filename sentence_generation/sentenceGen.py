@@ -1,5 +1,9 @@
 import random
 
+#Pro: easy, random, good for quick proof of concept
+#con: sentences are nonsensical
+
+
 articles = ["a", "the", "one", "some"]
 nouns = ["apple", "carrot", "rabbit", "banana", "basketball", "chess", "sun", "wind"]
 verbs = ["cooks", "blows", "bounces", "walks", "jumps", "calls", "stays", "runs", "abides"]
