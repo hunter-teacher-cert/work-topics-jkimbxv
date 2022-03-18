@@ -1,3 +1,22 @@
-* Last Name:
-* First Name:
+* Last Name: Kim
+* First Name: Jiyoon
 
+Group: Tiffany, Eduardo, Jiyoon
+
+- liked Liam's code along
+
+intro discussion (10-15 minutes)
+- tie in concepts from previous weeks regarding importance of encryption
+- facilitate discussion about why ciphers are necessary, how they came to be, the history, etc
+- how would you pass along a confidential message to someone else?
+- methods of decryption (sampling frequencies of different letters - giving them text to decrypt?)
+
+brief overview of each cipher (5 mins each --> 15 mins total)
+- enigma machine is example of polyalphabetic cipher + Alan Turing connection (levels exist for how complicated you want to encryption can be -- programming assignment?!)
+
+code alongs for ciphers (15 mins each --> 30 mins total)
+- breakout room to whiteboard algorithm for caesar cipher
+- hw can be to write decryption of caesar cipher? (mild challenge - give key; spicy challenge - guess the key)
+
+- Jiyoon - vigenere
+- Eduardo & Tiffany - caesar/substitution
