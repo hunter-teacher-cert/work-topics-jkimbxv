@@ -15,6 +15,7 @@ def encrypt(message,key):
         d = ord(key[iKey])-65
 
         #vigenere encryption formula per char: C = (P+d)%26
+        #adding by d in order to move that many steps ahead
         c = chr(((p+d)%26)+65) #add 65 again to get to letters in ascii code
         encrypted+=c
         i+=1
@@ -32,6 +33,7 @@ def decrypt(secret,key):
         d = ord(key[iKey])-65
 
         #vigenere decryption formula per char: P = (c-d)%26
+        #subtracting d in order to move that many steps back
         c = chr(((p-d)%26)+65) #add 65 again to get to letters in ascii code
         decrypted+=c
         i+=1
