@@ -1,8 +1,3 @@
-m = "computerscience"
-k = "bcd"
-#chr(ASCIICODE) --> character
-#ord(CHARACTER) --> ASCII value
-
 def encrypt(message,key):
     encrypted=""
     message = message.upper()
@@ -39,7 +34,8 @@ def decrypt(secret,key):
         i+=1
     return decrypted
 
-
+m = "computerscience"
+k = "bcd"
 
 encrypted = encrypt(m,k)
 decrypted = decrypt(encrypted,k)
