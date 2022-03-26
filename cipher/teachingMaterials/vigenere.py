@@ -8,7 +8,6 @@ def encrypt(message,key):
         #getting each letter's ASCII and converting to 0-25
         p = ord(message[i])-65 #ord to convert chr to ascii, 65 due to A's ascii code
         d = ord(key[iKey])-65
-
         #vigenere encryption formula per char: C = (P+d)%26
         #adding by d in order to move that many steps ahead
         c = chr(((p+d)%26)+65) #add 65 again to get to letters in ascii code
@@ -33,6 +32,15 @@ def decrypt(secret,key):
         decrypted+=c
         i+=1
     return decrypted
+
+
+def enigma(message,key):
+    i = 0
+    while (i<6):
+        message = encrypt(message,key)
+        i+=1
+    return message
+
 
 m = "computerscience"
 k = "bcd"
