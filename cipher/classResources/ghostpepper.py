@@ -12,3 +12,10 @@ def decryptNoKey(secretMessage):
     commonWords = []
     #how could we step through a message and look for possible clues?
     #In this resource: https://www.dcode.fr/caesar-cipher what does "brute force" mean?
+    #returns decrypted string possibilities
+
+message1 = "this is a secret"
+encrypted = encrypt(message1,1)
+decrypted = decryptNoKey(encrypted)
+print(encrypted)
+print(decrypted)

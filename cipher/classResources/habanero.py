@@ -9,3 +9,8 @@ def enigmaMachine(secret,key):
     #enigma machine is a rotor based encryption enigmaMachine
     #simulates 6 vigenre ciphers
     #use the flow chart from slide 26
+    #returns an encrypted string
+
+message1 = "Hey this is a secret"
+key1 = "apcsp"
+encrypted1 = enigmaMachine(message1,key);
