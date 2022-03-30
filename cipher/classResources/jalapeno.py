@@ -33,7 +33,7 @@ def decrypt(secret,key):
 m = "computerscience"
 k = "bcd"
 
-#Use this resource to check your work: https://www.dcode.fr/vigenere-cipher 
+#Use this resource to check your work: https://www.dcode.fr/vigenere-cipher
 
 encrypted = encrypt(m,k)
 decrypted = decrypt(encrypted,k)
