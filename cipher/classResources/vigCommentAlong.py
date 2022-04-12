@@ -11,19 +11,22 @@ def encrypt(message,key):
         #i = 3, len(key) = 3
         iKey = i%len(key)
 
-        #plain text converting char into number, shifted by 65 to ensure A is 0
-        p = ord(message[i])-65
-        #key converting char into number, shifted by 65 to ensure A is 0
-        d = ord(key[iKey])-65
+        if (message[i]==" "):
+            encrypted+=" "
+        else :
+            #plain text converting char into number, shifted by 65 to ensure A is 0
+            p = ord(message[i])-65
+            #key converting char into number, shifted by 65 to ensure A is 0
+            d = ord(key[iKey])-65
 
-        #p+d: doing shift
-        #%26: loops back to the front of the alphabet
-        #+65 undoing shift from line 15 & 17
-        #chr: converting unicode into char
-        c = chr(((p+d)%26)+65)
+            #p+d: doing shift
+            #%26: loops back to the front of the alphabet
+            #+65 undoing shift from line 15 & 17
+            #chr: converting unicode into char
+            c = chr(((p+d)%26)+65)
 
-        #concatonate to our empty string that we are building on. 
-        encrypted+=c
+            #concatonate to our empty string that we are building on.
+            encrypted+=c
         i+=1
     return encrypted
 
