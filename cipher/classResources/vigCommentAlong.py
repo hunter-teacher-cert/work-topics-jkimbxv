@@ -10,7 +10,7 @@ def encrypt(message,key):
         #key needs a separate index, used to loop back to beginning of key
         #i = 3, len(key) = 3
         iKey = i%len(key)
-
+        #if statements to handle spaces specifically. will concatonate a space and skip encoding it. 
         if (message[i]==" "):
             encrypted+=" "
         else :
