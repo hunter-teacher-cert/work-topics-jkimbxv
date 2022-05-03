@@ -1,3 +1,4 @@
-* Last Name:
-* First Name:
+* Last Name: KIM
+* First Name: Jiyoon
 
+https://replit.com/@JiyoonKim10/raytracer-js#examples/hunter.js 
